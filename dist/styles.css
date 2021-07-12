@@ -1,0 +1,114 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  outline: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+td,
+thead,
+th,
+td,
+center,
+#header {
+  box-shadow: none;
+}
+
+a {
+  color: #fa5252;
+}
+
+.repo {
+  bottom: 100;
+}
+
+#header {
+  color: #d40229;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+td,
+th {
+  border: none;
+}
+
+.content-table {
+  width: 75%;
+  outline: none;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+
+.content-table thead tr {
+  outline: none;
+  background-color: #fa5251;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  outline: none;
+  padding: 12px 15px;
+}
+
+select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1 px solid #f2f2f2;
+  border-radius: 3px;
+  padding: 5px 10px;
+  color: #000;
+  outline: none;
+  width: 25%;
+  border-color: transparent transparent #fff transparent;
+}
+
+select:hover {
+  background-color: #fa5252;
+}
+
+df-messenger {
+  --df-messenger-bot-message: #d40229;
+  --df-messenger-button-titlebar-color: #636564;
+  --df-messenger-chat-background-color: #fafafa;
+  --df-messenger-font-color: white;
+  --df-messenger-send-icon: #d40229;
+  --df-messenger-user-message: #d40229;
+}
+
+.modal {
+  size: 100%;
+}
+
+input[type="submit"] {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.3333333333333333em;
+  font-weight: 900;
+  color: #fa5252;
+  border: none;
+}
+
+/*this was originaly a scss file, i mainly wanted scss for variables, even tho css has vars, it is very confusing for me*/

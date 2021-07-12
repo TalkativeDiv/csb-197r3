@@ -1,0 +1,37 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+* {
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  outline: none;
+  box-shadow: 0 0 20px $shadow;
+}
+
+td,
+thead,
+th,
+td,
+center,
+#header {
+  box-shadow: none;
+}
+
+a {
+  color: $red;
+}
+
+.repo {
+  bottom: 100;
+}
+
+#header {
+  color: $darkRed;
+}
